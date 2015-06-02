@@ -1,5 +1,5 @@
 # triedict
-A compressed python dictionary implemented as a Trie. Allows for lookup, prefix/predictive search, and Aho-Corasick string matching operations on the dictionary.
+A compressed and serializable python dictionary implemented as a Trie. Allows for lookup, prefix/predictive search, and Aho-Corasick string matching operations on the dictionary.
 
 ## About ##
 A serializable Trie-based dictionary (`TrieDict`) for sequence-like objects
