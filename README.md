@@ -26,12 +26,10 @@ are called a *patterns*, and the items of the sequences
 are called *symbols*.
 
 The objectives of the implementation can be summarized as:
-1. The triedict is memory-efficient by compressing the patterns
- on basis of their common prefixes, and by using native data types (ctypes)
- to store the information.
-2. The triedict allows for fast serialization to disc.
-3. The triedict allows to implement the core logic in C routines
- by only using native C data types within the Trie (not done yet).
+
+1. `Triedict` is memory-efficient by by using native data types (ctypes) to store the Trie data.
+2. `Triedict` allows for fast serialization to disc by using an array of structs and `uint32`-based pointers.
+3. `Triedict` allows for high-performance by implementing the Trie logic as C routines (not done yet).
 
 ## Usage ##
 Currently supported data types:
